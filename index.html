@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Agenda Web</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h2>Agenda Fodona da Bia</h2>
+
+        <section id="sec-pesq">
+            <input type="text" placeholder="Busque pelo contato">
+        </section>
+
+        <section id="sec-form">
+            <h2>Inserir Dados:</h2>
+            <form action="" id="form">
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" id="nome">
+
+                </div>
+                <div class="form-group">
+                    <label>Avatar</label>
+                    <input type="text" name="avatar" id="avatar">
+                </div>
+                <button>Adicionar</button>
+            </form>
+        </section>
+
+        <section id="sec-listContato">
+            <h2>Contatos</h2>
+            <ul id="lista-contato">
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/80.png"
+                        alt="" class="card-midia">
+                    <h3>Beatriz</h3>
+                </li>
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/90.png"
+                        alt="" class="card-midia">
+                    <h3>Bruna</h3>
+                </li>
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/50.png"
+                        alt="" class="card-midia">
+                    <h3>Livia</h3>
+                </li>
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/66.png"
+                        alt="" class="card-midia">
+                    <h3>Rafaela</h3>
+                </li>
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/70.png"
+                        alt="" class="card-midia">
+                    <h3>Edna</h3>
+                </li>
+                <li class="card">
+                    <img src="https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/40.png"
+                        alt="" class="card-midia">
+                    <h3>Livia</h3>
+                </li>
+            </ul>
+            <!-- <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Beatriz</td>
+                        <td>Bi@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>ito</td>
+                        <td>ito@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table> -->
+        </section>
+
+    </div>
+
 </body>
+
 </html>
